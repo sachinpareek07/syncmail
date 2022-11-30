@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-// const api = axios.create({ baseURL: process.env.REACT_APP_API_HOST });
 const api = axios.create({ baseURL: "http://54.245.237.47:8867/" });
+// const api = axios.create({ baseURL: "http://localhost:8860/" });
 
 let language = "en";
 api.interceptors.request.use(
