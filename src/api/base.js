@@ -10,8 +10,8 @@ api.interceptors.request.use(
       const token = await sessionStorage.getItem("token");
       config.headers = {
         ...config.headers,
-        "X-SHOP-Platform": "web",
-        "X-SHOP-Version": "1.0.0",
+        "X-Lejo-Platform": "web",
+        "X-Lejo-Version": "1.0.0",
         "Accept-Language": language || "en",
       };
       token && (config.headers["Authorization"] = token || "");
