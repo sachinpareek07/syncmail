@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/syncmail/static/css/main.c1766ab8.css",
+    "main.js": "/syncmail/static/js/main.a7003b3a.js",
+    "index.html": "/syncmail/index.html",
+    "main.c1766ab8.css.map": "/syncmail/static/css/main.c1766ab8.css.map",
+    "main.a7003b3a.js.map": "/syncmail/static/js/main.a7003b3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1766ab8.css",
+    "static/js/main.a7003b3a.js"
+  ]
+}
